@@ -30,23 +30,22 @@ footer{
 }
 
 .board{
-    display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
     margin: auto;
     width: 31.25rem;
     height: 31.25rem;
+    display: none;
 }
 
 .board-number{
     width: calc(100% / 10);
     height: calc(100% / 10);
     border: 1px solid black;
-    display: none;
 }
 
 .show{
-    display: block;
+    display: flex;
 }
 
 button{
